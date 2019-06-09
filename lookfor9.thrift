@@ -18,4 +18,5 @@ service Api
 	string Hello()
 	void AddProxy(1: string Url)
 	string PhoneInfo(1: string number)
+	list<ProxyInfo> GetActiveProxies()
 }
