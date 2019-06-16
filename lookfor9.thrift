@@ -13,10 +13,17 @@ struct ProxyInfo
 	4: string LastCheck;
 }
 
+struct TreeInfo
+{
+	1: i32 Id,
+	2: string Name
+}
+
 service Api
 {
 	string Hello()
 	void AddProxy(1: string Url)
 	string PhoneInfo(1: string number)
-	list<ProxyInfo> GetActiveProxies()
+	list<ProxyInfo> ActiveProxies()
+	list<TreeInfo> TreeChildren(1: i32 id)
 }
