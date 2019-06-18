@@ -17,6 +17,7 @@ struct TreeInfo
 {
 	1: i32 Id,
 	2: string Name
+	3: bool HasChildren
 }
 
 struct Ad
