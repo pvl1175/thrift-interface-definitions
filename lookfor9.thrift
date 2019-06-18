@@ -22,20 +22,21 @@ struct TreeInfo
 
 struct Ad
 {
-	1: string Location;
-	2: string Address;
-	3: string Lat;
-	4: string Lng;
-	5: string Title;
-	6: string Price;
-	7: string UriMWeb;
-	8: string UserType;
-	9: string AvitoTime;
-	10: string OwnerName;
-	11: string OwnerPhone;
-	12: i32 AdState;
-	13: bool IsParse;
-	14: bool IsSource;
+	1: i32 Id,
+	2: string Location;
+	3: string Address;
+	4: string Lat;
+	5: string Lng;
+	6: string Title;
+	7: string Price;
+	8: string UriMWeb;
+	9: string UserType;
+	10: string AvitoTime;
+	11: string OwnerName;
+	12: string OwnerPhone;
+	13: i32 AdState;
+	14: bool IsParse;
+	15: bool IsSource;
 }
 
 service Api
