@@ -47,5 +47,5 @@ service Api
 	string PhoneInfo(1: string number)
 	list<ProxyInfo> ActiveProxies()
 	list<TreeInfo> TreeChildren(1: i32 id)
-	list<Ad> AdsByTree(1: i32 treeId)
+	list<Ad> AdsByTree(1: i32 treeId, 2: i16: rowsCount)
 }
