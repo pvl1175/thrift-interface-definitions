@@ -37,6 +37,7 @@ struct Ad
 	13: i32 AdState;
 	14: bool IsParse;
 	15: bool IsSource;
+	16: string PhoneInfo;
 }
 
 service Api
