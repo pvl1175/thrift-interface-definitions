@@ -48,4 +48,5 @@ service Api
 	list<ProxyInfo> ActiveProxies()
 	list<TreeInfo> TreeChildren(1: i32 id)
 	list<Ad> AdsByTree(1: i32 treeId, 2: i16 rowsCount)
+	list<Ad> AdsByQuery(1: string value, 2: i16 rowsCount)
 }
